@@ -13,5 +13,7 @@ public class GarbageCollectionDemo {
 
         System.out.println("Long-lived object reference removed.");
 
+        System.out.println("Both objects are now eligible for GC!");
+
     }
 }
